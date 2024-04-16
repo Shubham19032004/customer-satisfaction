@@ -3,12 +3,11 @@ import logging
 import mlflow
 import numpy as np
 import pandas as pd
-from model.evaluation import MSE, RMSE, R2Score
+from src.evaluation import MSE, RMSE, R2Score
 from sklearn.base import RegressorMixin
 from typing_extensions import Annotated
 from zenml import step
 from zenml.client import Client
-
 experiment_tracker = Client().active_stack.experiment_tracker
 from typing import Tuple
 
@@ -28,6 +27,7 @@ def evaluation(
         rmse: float
     """
     try:
+        print(experiment_tracker)
         # prediction = model.predict(x_test)
         # evaluation = Evaluation()
         # r2_score = evaluation.r2_score(y_test, prediction)

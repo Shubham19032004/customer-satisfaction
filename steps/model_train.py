@@ -13,8 +13,9 @@ from .config import ModelNameConfig
 from sklearn.base import RegressorMixin
 from zenml import step
 from zenml.client import Client
+experiment_tracker = Client().active_stack.experiment_tracker
 
-@step
+@step(experiment_tracker=experiment_tracker.name)
 def train_model(
     x_train: pd.DataFrame,
     x_test: pd.DataFrame,

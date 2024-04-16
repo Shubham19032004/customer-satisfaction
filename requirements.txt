@@ -6,3 +6,5 @@ streamlit
 xgboost
 markupsafe
 zenml
+pandas
+scikit-learn

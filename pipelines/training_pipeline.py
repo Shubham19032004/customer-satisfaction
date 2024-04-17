@@ -1,12 +1,10 @@
-from zenml import pipeline
-from steps.clean_data import clean_data
-from steps.evaluation import evaluation
-from steps.ingest_data import ingest_data
-from steps.model_train import train_model
+from zenml.integrations.constants import MLFLOW
+from zenml.pipelines import pipeline
 
 
-@pipeline(enable_cache=False)
-def training_pipeline(ingest_data, clean_data, model_train, evaluation):
+
+@pipeline
+def train_pipeline(ingest_data, clean_data, model_train, evaluation):
     """
     Args:
         ingest_data: DataClass

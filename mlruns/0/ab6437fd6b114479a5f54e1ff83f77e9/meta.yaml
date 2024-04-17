@@ -1,0 +1,15 @@
+artifact_uri: file:///media/shubham/0C5AF48D75CB6271/projects/customer-Satisfaction/mlruns/0/ab6437fd6b114479a5f54e1ff83f77e9/artifacts
+end_time: 1713359128925
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab6437fd6b114479a5f54e1ff83f77e9
+run_name: awesome-foal-122
+run_uuid: ab6437fd6b114479a5f54e1ff83f77e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713359117291
+status: 3
+tags: []
+user_id: shubham

@@ -1,0 +1,15 @@
+artifact_uri: file:///media/shubham/0C5AF48D75CB6271/projects/customer-Satisfaction/mlruns/0/42a90cb3f153420fb9ee3d5aa21a488c/artifacts
+end_time: 1713359134473
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 42a90cb3f153420fb9ee3d5aa21a488c
+run_name: orderly-quail-314
+run_uuid: 42a90cb3f153420fb9ee3d5aa21a488c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713359130513
+status: 3
+tags: []
+user_id: shubham
